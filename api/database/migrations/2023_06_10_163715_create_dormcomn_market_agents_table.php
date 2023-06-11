@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('dormcomn_market_agents', function (Blueprint $table) {
+            
             $table->id();
             $table->timestamps();
         });
